@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG Concepts">
+
+
+<test name="Different class execute">
+<classes>
+
+<class name="TestNG_FrameWork.ExceptionTimeout"/>
+<class name="TestNG_FrameWork.FreeCrmLoginTest"/>
+<class name="TestNG_FrameWork.InvocationCount"/>
+<class name="TestNG_FrameWork.TestNG_Basic"/>
+
+</classes>
+</test>
+</suite>

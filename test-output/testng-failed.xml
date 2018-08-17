@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Concepts]">
+  <test thread-count="5" name="Different class execute(failed)">
+    <classes>
+      <class name="TestNG_FrameWork.FreeCrmLoginTest">
+        <methods>
+          <include name="enterurl"/>
+          <include name="logout"/>
+          <include name="logindetails"/>
+          <include name="unused_1"/>
+          <include name="unused_2"/>
+          <include name="printreport"/>
+          <include name="unused_3"/>
+          <include name="setUpProperty"/>
+          <include name="deletecookies"/>
+        </methods>
+      </class> <!-- TestNG_FrameWork.FreeCrmLoginTest -->
+    </classes>
+  </test> <!-- Different class execute(failed) -->
+</suite> <!-- Failed suite [TestNG Concepts] -->
